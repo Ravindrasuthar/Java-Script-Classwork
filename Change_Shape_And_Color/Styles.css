@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+#circle{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.innershape{
+    background-color: white;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 38px;
+    top: 38px;
+}
+
+.ineershape-triangle{
+    background-color: transparent;
+    position: relative;
+    height: 0px;
+    width: 0px;
+    top: 38px;
+    left: 38px;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
